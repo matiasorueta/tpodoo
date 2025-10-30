@@ -37,7 +37,7 @@
     <record id="view_move_search_inherit_canal" model="ir.ui.view">
         <field name="name">account.move.search.canal</field>
         <field name="model">account.move</field>
-        <field name="inherit_id" ref="account.view_move_filter"/>
+        <field name="inherit_id" ref="account.view_account_move_filter"/>
         <field name="arch" type="xml">
             <xpath expr="//search" position="inside">
                 <!-- Solo agrupa los registros que tienen canal asignado -->
